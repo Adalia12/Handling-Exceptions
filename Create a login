@@ -1,0 +1,8 @@
+ try:
+u=input("enter the username:")
+p=input("enter the password:")
+if u=="" or p=="":
+raise Exception ("username and password cannot be empty")
+print("login sucessfully")
+except Exception as q:
+print("error",q)
