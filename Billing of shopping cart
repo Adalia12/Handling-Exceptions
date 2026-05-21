@@ -1,0 +1,9 @@
+try:
+a=int(input("enter the quantity:"))
+b=int(input("enter the price:"))
+if a<0 or b<0:
+raise ValueError ("price or quantity cannot be negative")
+total=a*b
+print("total bill:",total)
+except ValueError as q:
+print("error",q)
