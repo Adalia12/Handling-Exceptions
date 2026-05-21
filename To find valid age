@@ -1,0 +1,7 @@
+ try:
+a=int(input("enter age:"))
+if a<0:
+raise ValueError("age should not be in negative")
+print("age is accepted")
+except ValueError as w:
+print("error",w)
